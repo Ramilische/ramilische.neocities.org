@@ -1,0 +1,70 @@
+@font-face { font-family: Webfont; src: url("fonts/000webfont.ttf")}
+@font-face { font-family: Bangalore; src: url("fonts/Bangalore.ttf")}
+@font-face { font-family: Basiic; src: url("fonts/basiic.ttf")}
+@font-face { font-family: Bubbcb; src: url("fonts/BUBBCB_.TTF")}
+@font-face { font-family: Cherish; src: url("fonts/Cherish.ttf")}
+@font-face { font-family: GlamourGirl; src: url("fonts/GLAMOURGIRL.TTF")}
+@font-face { font-family: HeartFont; src: url("fonts/heartfont.ttf")}
+@font-face { font-family: RomanceA; src: url("fonts/RomanceA.ttf")}
+@font-face { font-family: Virale; src: url("fonts/virale.ttf")}
+@font-face { font-family: Yoster; src: url("fonts/yoster.ttf")}
+
+
+body {
+    font-family: Webfont, sans-serif;
+    font-size: 24px;
+    color: purple;
+    background: linear-gradient(rgb(251, 220, 220, .15), rgb(251, 220, 220, .15)), url(images/bg/5005.png);
+
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 20px 10px 20px;
+}
+
+.title {
+    font-size: 64px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.icons a {
+    margin: 0 10px 0 10px;
+    width: 48px;
+    height: 48px;
+    color: currentColor;
+    fill: currentColor;
+}
+
+main {
+    height: fit-content;
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    align-content: stretch;
+}
+
+.left {}
+
+.middle {}
+
+.right {}
+
+.container {
+    background: aliceblue;
+
+    padding: 15px;
+    border-radius: 20px;
+}
+
+footer {}
