@@ -1,6 +1,5 @@
 # My personal [neocities.org](https://neocities.org "Neocities") website
 
----
 ## What is Neocities?
 
 Neocities is a free platform for hosting static websites,
